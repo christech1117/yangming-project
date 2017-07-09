@@ -3,14 +3,13 @@
     .container
       .row
         .col-sm-3.col-md-3.col-lg-3.text-center.menu-left
-          h2 計畫介紹
-          router-link(:to="{ path: '/plan/idea' }")
-            img.rounded-circle(src="../assets/plan-team.jpg" alt="...")
-          router-link(:to="{ path: '/plan/team' }")
-            img.rounded-circle(src="../assets/plan-team.jpg" alt="...")
-          img.rounded-circle(src="../assets/plan-team.jpg" alt="...")
+          ul.list-group(v-for="plan in plans")
+            li.plan-card
+              router-link(:to="{ path: '/plan/idea' }")
+                  //- .menu-image.rounded-circle(:style="{ 'background-image': 'url(' + plan.image + ')' }")
+                  img(:src="plan.image")
+                  h4 {{ plan.title }}
         .col-sm-6.col-md-6.col-lg-6.text-center.menu-center
-          h2 藝術家作品計畫
           .row
             .col-sm-6.col-md-6.col-lg-6.text-center.menu-center
               router-link(:to="{ path: '/works/:id' }")
@@ -23,7 +22,6 @@
                 img.rounded(src="../assets/works-1.jpg" alt="...")
           
         .col-sm-3.col-md-3.col-lg-3.text-center.menu-right
-          h2 民眾參與花絮
           router-link(:to="{ path: '/scenes/pre/:id' }")
             img.rounded(src="../assets/sences.jpg" alt="...")
           router-link(:to="{ path: '/scenes/med/:id' }")
@@ -37,30 +35,63 @@ export default {
   name: 'Home',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      plans: [
+        {
+          title: '計畫理念',
+          image: '../assets/plan-team.jpg',
+          url: '/plan/idea'
+        },
+        {
+          title: '行政團隊',
+          image: 'https://click.linksynergy.com/link?id=BoHFIyu6APU&offerid=323058.932344&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fdata-analysis-with-pandas%2F',
+          url: '/plan/work'
+        },
+        {
+          title: '成果影片',
+          image: '../assets/works-1.jpg',
+          url: '/plan/work'
+        }
+      ],
+      works: [],
+      scenes: [],
+      image: "http://1.bp.blogspot.com/-8PfnHfgrH4I/TylX2v8pTMI/AAAAAAAAJJ4/TICBoSEI57o/s1600/search_by_image_image.png"
+    }
+  },
+  computed: {
+    bg_css () {
+      return {
+        'background-image': "url('" + this.plans.image + "')"
+      }
     }
   }
 }
 </script>
 
 <style scoped lang="sass">
-
-h2
-  margin-top: 10px
-  margin-bottom: 50px
-
 img
   margin-bottom: 20px
   width: 250px
   height: 250px
 
-.menu-left
-  color: blue
-
-.menu-center
-  color: green
-
-.menu-right
-  color: orange
-
+li
+  list-style-type: none
+.plan-card
+  animation: fadeIn 1s ease both
+  position: relative
+  margin-bottom: 20px
+  h4
+    position: absolute
+    top: 40%
+    left: 0
+    width: 100%
+    z-index: 3
+.menu-image
+  height: 250px
+  width: 250px
+  background: url("../assets/plan-team.jpg")
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: contain
+  transition: 0.5s
+  
 </style>
