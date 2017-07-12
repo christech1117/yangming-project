@@ -5,9 +5,9 @@
         .col-sm-3.col-md-3.col-lg-3.text-center.menu-left
           ul.list-group(v-for="plan in plans")
             li.plan-card
-              router-link(:to="{ path: '/plan/idea' }")
+              router-link(:to="{ path: plan.url }")
                   //- .menu-image.rounded-circle(:style="{ 'background-image': 'url(' + plan.image + ')' }")
-                  img(:src="plan.image")
+                  img.rounded-circle(:src="plan.image")
                   h4 {{ plan.title }}
         .col-sm-6.col-md-6.col-lg-6.text-center.menu-center
           .row
@@ -28,6 +28,22 @@
             img.rounded(src="../assets/sences.jpg" alt="...")
           router-link(:to="{ path: '/scenes/last/:id' }")
             img.rounded(src="../assets/sences.jpg" alt="...")
+            
+      button.btn.btn-primary.btn-lg(type='button', data-toggle='modal', data-target='#flipFlop') 123
+
+      #flipFlop.modal.fade(tabindex='-1', role='dialog', aria-labelledby='modalLabel', aria-hidden='true')
+        .modal-dialog(role='document')
+          .modal-content
+            .modal-header
+              button.close(type='button', data-dismiss='modal', aria-label='Close')
+                span(aria-hidden='true') ×
+              h4#modalLabel.modal-title Flip-flop
+            .modal-body
+              | A type of open-toed sandal.
+            .modal-footer
+              button.btn.btn-secondary(type='button', data-dismiss='modal') Close
+
+
 </template>
 
 <script>
@@ -38,23 +54,22 @@ export default {
       plans: [
         {
           title: '計畫理念',
-          image: '../assets/plan-team.jpg',
+          image: 'http://www.citytalk.tw/upload/event/0/122/3a0/pb/img/269985/700x524-exactly.jpg',
           url: '/plan/idea'
         },
         {
           title: '行政團隊',
-          image: 'https://click.linksynergy.com/link?id=BoHFIyu6APU&offerid=323058.932344&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fdata-analysis-with-pandas%2F',
+          image: 'http://www.citytalk.tw/upload/event/0/122/3a0/pb/img/269985/700x524-exactly.jpg',
           url: '/plan/work'
         },
         {
           title: '成果影片',
-          image: '../assets/works-1.jpg',
+          image: '/static/img/works-1.4ff41f8.jpg',
           url: '/plan/work'
         }
       ],
       works: [],
-      scenes: [],
-      image: "http://1.bp.blogspot.com/-8PfnHfgrH4I/TylX2v8pTMI/AAAAAAAAJJ4/TICBoSEI57o/s1600/search_by_image_image.png"
+      scenes: []
     }
   },
   computed: {
