@@ -1,28 +1,34 @@
 <template lang="pug">
   #Home
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center.menu-left
-        ul.list-group(v-for="plan in plans")
+      .col-sm-3.col-md-3.col-lg-3.text-center
+        ul.list-group(v-for="(plan, index) in plans")
           li.plan-card
             router-link(:to="{ path: plan.url }")
-              img.rounded(:src="plan.image", :onmouseover="plan.focus" @mouseout="plan.focus")
-      .col-sm-6.col-md-6.col-lg-6.text-center.menu-center
+              img.rounded(v-if="!plan.active" :src="plan.image" @mouseover="plan.active=true" @mouseleave="plan.active=false")
+              img.rounded(v-if="plan.active" :src="plan.focus" @mouseover="plan.active=true" @mouseleave="plan.active=false")
+
+      .col-sm-6.col-md-6.col-lg-6
         .row
-          .col-sm-6.col-md-6.col-lg-6.text-center.menu-center
-            router-link(:to="{ path: '/works/:id' }")
-              img.rounded(src="../assets/works-1.jpg" alt="...")
-              img.rounded(src="../assets/works-1.jpg" alt="...")
-              img.rounded(src="../assets/works-1.jpg" alt="...")
-          .col-sm-6.col-md-6.col-lg-6.text-center.menu-center
-            router-link(:to="{ path: '/works/:id' }")
-              img.rounded(src="../assets/works-1.jpg" alt="...")
-              img.rounded(src="../assets/works-1.jpg" alt="...")
+          .col-sm-6.col-md-6.col-lg-6.work-2.text-right.work-menu
+            img.rounded(src="/static/img/button/work-2.png")
+          .col-sm-6.col-md-6.col-lg-6.work-3.text-left.work-menu
+            img.rounded(src="/static/img/button/work-3.png")
+          .col-sm-4.col-md-4.col-lg-4.work-4.text-center
+            img.rounded(src="/static/img/button/work-4.png")
+          .col-sm-4.col-md-4.col-lg-4.work-6.text-center
+            img.rounded(src="/static/img/button/work-6.png")
+          .col-sm-4.col-md-4.col-lg-4.work-5.text-center
+            img.rounded(src="/static/img/button/work-5.png")
+        //- .row
+          
         
-      .col-sm-3.col-md-3.col-lg-3.text-center.menu-right
+      .col-sm-3.col-md-3.col-lg-3.text-center
         ul.list-group(v-for="scene in scenes")
           li.plan-card
             router-link(:to="{ path: scene.url }")
-              img.rounded(:src="scene.image")
+              img.rounded(v-if="!scene.active" :src="scene.image" @mouseover="scene.active=true" @mouseleave="scene.active=false")
+              img.rounded(v-if="scene.active" :src="scene.focus" @mouseover="scene.active=true" @mouseleave="scene.active=false")
           
     button.btn.btn-primary.btn-lg(type='button', data-toggle='modal', data-target='#flipFlop') 123
 
@@ -48,46 +54,104 @@ export default {
     return {
       plans: [
         {
+          active: false,
           title: '計畫理念',
-          image: '/static/img/plan-2.c314dee.png',
-          focus: '/static/img/plan-2focus.a65c3be.png',
+          image: '/static/img/button/plan-2.png',
+          focus: '/static/img/button/plan-2focus.png',
           url: '/plan/idea'
           
         },
         {
+          active: false,
           title: '行政團隊',
-          image: '/static/img/plan-3.d198cab.png',
-          focus: '/static/img/plan-3focus.dfe3b0f.png',
+          image: '/static/img/button/plan-3.png',
+          focus: '/static/img/button/plan-3focus.png',
           url: '/plan/work'
         },
         {
+          active: false,
           title: '成果影片',
-          image: '/static/img/plan-4.751d5d7.png',
-          focus: '/static/img/plan-3focus.dfe3b0f.png',
-          url: '/plan/work'
+          image: '/static/img/button/plan-4.png',
+          focus: '/static/img/button/plan-4.png',
+          url: '/plan/video'
+        },
+        {
+          active: false,
+          title: '成果影片2',
+          image: '/static/img/button/plan-5.png',
+          focus: '/static/img/button/plan-5.png',
+          url: '/plan/video2'
         }
       ],
-      works: [],
+      works: [
+        {
+          active: false,
+          title: '雲想',
+          image: '/static/img/button/work-2.png',
+          focus: '/static/img/button/work-2focus.png',
+          url: '/work/1'
+        },
+        {
+          active: false,
+          title: '雲想',
+          image: '/static/img/button/work-3.png',
+          focus: '/static/img/button/work-3focus.png',
+          url: '/work/1'
+        },
+        {
+          active: false,
+          title: '雲想',
+          image: '/static/img/button/work-4.png',
+          focus: '/static/img/button/work-4focus.png',
+          url: '/work/1'
+        },
+        {
+          active: false,
+          title: '雲想',
+          image: '/static/img/button/work-5.png',
+          focus: '/static/img/button/work-5focus.png',
+          url: '/work/1'
+        },
+        {
+          active: false,
+          title: '雲想',
+          image: '/static/img/button/work-6.png',
+          focus: '/static/img/button/work-6focus.png',
+          url: '/work/1'
+        },
+      ],
       scenes: [
         {
+          active: false,
           title: '計畫理念',
-          image: '/static/img/scene-2.566d6f8.png',
+          image: '/static/img/button/scene-2.png',
+          focus: '/static/img/button/scene-2focus.png',
           url: '/scene/idea'
         },
         {
+          active: false,
           title: '行政團隊',
-          image: '/static/img/scene-3.f36d468.png',
+          image: '/static/img/button/scene-3.png',
+          focus: '/static/img/button/scene-2focus.png',
           url: '/scene/work'
         },
         {
+          active: false,
           title: '成果影片',
-          image: '/static/img/scene-4.06b6022.png',
+          image: '/static/img/button/scene-4.png',
+          focus: '/static/img/button/scene-2focus.png',
           url: '/scene/work'
         }
       ]
     }
   },
+  methods: {
+    // mouseOver(index) {
+    //   this.plans[index] = true
+    // }
+  },
   computed: {
+    
   }
 }
 </script>
@@ -99,8 +163,24 @@ export default {
   animation: fadeIn 1s ease both
 
 img
+  animation: fadeIn 2s ease both
   margin-bottom: 20px
-  width: 300px
-  height: 250px
-  
+  width: 70%
+
+.work-menu
+  height: 320px
+
+.work-2
+  img
+    margin-top: 4rem
+
+.work-4, .work-5
+  img
+    width: 90%
+
+.work-6
+  img
+    margin-top: 8rem
+    width: 90%
+
 </style>
