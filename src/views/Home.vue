@@ -4,10 +4,10 @@
       .col-sm-3.col-md-3.col-lg-3.text-center
         ul.list-group
           li
-            router-link(:to="{ path: '/plan/1' }")
+            router-link(:to="{ path: '/plan/idea' }")
               img.rounded(src="/static/img/button/plan-1.png" onmouseover="this.src='/static/img/button/plan-1focus.png'" onmouseout="this.src='/static/img/button/plan-1.png'")
           li
-            router-link(:to="{ path: '/plan/2' }")
+            router-link(:to="{ path: '/plan/team' }")
               img.rounded(src="/static/img/button/plan-2.png" onmouseover="this.src='/static/img/button/plan-2focus.png'" onmouseout="this.src='/static/img/button/plan-2.png'")
           li
             router-link(:to="{ path: '/plan/3' }")
@@ -45,7 +45,7 @@
               img.rounded(src="/static/img/button/scene-2.png" onmouseover="this.src='/static/img/button/scene-2focus.png'" onmouseout="this.src='/static/img/button/scene-2.png'")
           li
             router-link(:to="{ path: '/scene/3' }")
-              img.rounded(src="/static/img/button/scene-3focus.png" onmouseover="this.src='/static/img/button/scene-3focus.png'" onmouseout="this.src='/static/img/button/scene-3.png'")
+              img.rounded(src="/static/img/button/scene-3.png" onmouseover="this.src='/static/img/button/scene-3focus.png'" onmouseout="this.src='/static/img/button/scene-3.png'")
           
     button.btn.btn-primary.btn-lg(type='button', data-toggle='modal', data-target='#flipFlop') 123
 
@@ -176,16 +176,9 @@ export default {
 <style scoped lang="sass">
 @import './static/css/style.sass'
 
-*
-  animation: fadeIn 1s ease both
-img
-  margin-bottom: 20px
-  width: 70%
-  &:hover
-    // animation: fadeInUp 2s ease both
 
 .work-menu
-  height: 320px
+  height: 20rem
 
 .work-2
   img

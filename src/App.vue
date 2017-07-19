@@ -24,7 +24,7 @@ export default {
 @import './static/css/style.sass'
   
 .cover
-  height: 35em
+  height: 35rem
   position: relative
   background: url("./assets/banner.jpg")
   background-position: center center
@@ -32,8 +32,8 @@ export default {
   background-size: contain
 
 .brand
-  height: 10em
-  width: 50em
+  height: 10rem
+  width: 50rem
   background: url("./assets/brand.png")
   background-position: center center
   background-repeat: no-repeat
@@ -42,10 +42,22 @@ export default {
   top: 100px
   right: 110px
 
-.menu
-  width: 300px
-  margin-bottom: 1.5em
+.row
+  a
+    color: #555
+    &:hover
+      animation: fadeIn 2s ease both
+  img
+    margin-bottom: 1rem
+    width: 70%
 
-.plan
-  width: 200px
+  .menu
+    width: 300px
+    margin-bottom: 1.5rem
+
+  .plan
+    width: 200px
+
+.submenu
+  display: inline
 </style>
