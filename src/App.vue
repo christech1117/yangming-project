@@ -5,11 +5,11 @@
       .brand
     .row
       .col-sm-3.col-md-3.col-lg-3.text-center
-        img.menu.plan(src="/static/img/button/plan-1.png")
+        img.menu.plan(src="/static/img/button/plan-0.png")
       .col-sm-6.col-md-6.col-lg-6.text-center
-        img.menu(src="/static/img/button/work-1.png")
+        img.menu(src="/static/img/button/work-0.png")
       .col-sm-3.col-md-3.col-lg-3.text-center
-        img.menu(src="/static/img/button/scene-1.png")
+        img.menu(src="/static/img/button/scene-0.png")
     router-view
 </template>
 
