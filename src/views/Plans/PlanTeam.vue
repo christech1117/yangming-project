@@ -1,7 +1,7 @@
 <template lang="pug">
   #PlanIdea
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-10.col-md-10.col-lg-10.text-left.offset
         ol
           span 。
           router-link(:to="{ path: '/plan/idea' }") 
@@ -10,6 +10,8 @@
           router-link(:to="{ path: '/plan/team' }") 
             li.submenu.active 行政團隊
           span 。
+    .row
+      .col-sm-3.col-md-3.col-lg-3.text-center
         ul
           li
             router-link(:to="{ path: '/plan/3' }")
@@ -42,7 +44,7 @@
               p 許常吉建築師事務所　　　　　　　　　關偉強
               p 台灣世曦工程顧問股份有限公司　　　　彭子斌
         .row
-          .col-sm-12.col-md-12.col-lg-12
+          .col-sm-11.col-md-11.col-lg-11
             pre
               h2 公共藝術規劃團隊
               p 計畫主持人　　　　　　　　　　　　　京石文化設計有限公司
@@ -52,7 +54,7 @@
               p 民眾參與團隊　　　　　　　　　　　　李哲榮、許敬忠、潘勁瑞、李岳庚、TWON ART CO.、開放空間文教基金會、習作有限公司
               p 行政團隊　　　　　　　　　　　　　　林士邦、汪靜宜、高德恩、廖姿綺、趙啟揚
         .row
-          .col-sm-12.col-md-12.col-lg-12
+          .col-sm-11.col-md-11.col-lg-11
             pre
               h2 服務及執行團隊
               p 羅傑藝術文化有限公司　　　　　　　　羅傑、簡敏怡、陳琦蓁
@@ -92,4 +94,7 @@ ol
 
 .contentimg
   width: 100% 
+
+.offset
+  margin-left: 5rem
 </style>

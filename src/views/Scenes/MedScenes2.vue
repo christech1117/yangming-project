@@ -1,24 +1,36 @@
 <template lang="pug">
   #PlanIdea
     .row
-      .col-sm-10.col-md-10.col-lg-10.text-left.offset
+      .col-sm-10.col-md-10.col-lg-10.text-right.offset
         ol
           span 。
-          router-link(:to="{ path: '/plan/idea' }") 
-            li.submenu.active 公共藝術理念
+          router-link(:to="{ path: '/scene/pre/1' }") 
+            li.submenu 前期藝術參與
           span 。
-          router-link(:to="{ path: '/plan/team' }") 
-            li.submenu 行政團隊
+          router-link(:to="{ path: '/scene/med/1' }") 
+            li.submenu.active 藝術家工作坊
+          span 。
+          router-link(:to="{ path: '/scene/lat/1' }") 
+            li.submenu 永續推廣
           span 。
     .row
       .col-sm-3.col-md-3.col-lg-3.text-center
         ul
           li
-            router-link(:to="{ path: '/plan/3' }")
-              img.rounded(src="/static/img/button/plan-3.png" onmouseover="this.src='/static/img/button/plan-3.png'" onmouseout="this.src='/static/img/button/plan-3.png'")
+            router-link(:to="{ path: '/scene/med/1' }")
+              img.rounded(src="/static/img/button/scene-med-1.png" onmouseover="this.src='/static/img/button/scene-med-1focus.png'" onmouseout="this.src='/static/img/button/scene-med-1focus.png'")
           li
-            router-link(:to="{ path: '/plan/4' }")
-              img.rounded(src="/static/img/button/plan-4.png" onmouseover="this.src='/static/img/button/plan-4.png'" onmouseout="this.src='/static/img/button/plan-4.png'")
+            router-link(:to="{ path: '/scene/med/2' }")
+              img.rounded(src="/static/img/button/scene-med-2focus.png" onmouseover="this.src='/static/img/button/scene-med-2focus.png'" onmouseout="this.src='/static/img/button/scene-med-2.png'")
+          li
+            router-link(:to="{ path: '/scene/med/3' }")
+              img.rounded(src="/static/img/button/scene-med-3.png" onmouseover="this.src='/static/img/button/scene-med-3focus.png'" onmouseout="this.src='/static/img/button/scene-med-3.png'")
+          li
+            router-link(:to="{ path: '/scene/med/4' }")
+              img.rounded(src="/static/img/button/scene-med-4.png" onmouseover="this.src='/static/img/button/scene-med-4focus.png'" onmouseout="this.src='/static/img/button/scene-med-4.png'")
+          li
+            router-link(:to="{ path: '/scene/med/5' }")
+              img.rounded(src="/static/img/button/scene-med-5.png" onmouseover="this.src='/static/img/button/scene-med-5focus.png'" onmouseout="this.src='/static/img/button/scene-med-5.png'")
       .col-sm-8.col-md-8.col-lg-8
         h1 計畫介紹
         p 陽明大學附設醫院成立於2008年，是最年輕的大學附設醫院，但其前身衛生署立宜蘭醫院卻已擁有超過百年的歷史，是蘭陽地區歷史最悠久的醫院。創始於日治時代1896年，1945年由國民政府接收為臺灣省省立宜蘭醫院，後再改制為衛生署署立宜蘭醫院，它一直是蘭陽地區的重要醫療院所，被當地民眾稱為“宜蘭大病院”。
@@ -68,5 +80,5 @@ ol
   border-bottom: #005AB5 1px solid
 
 .offset
-  margin-left: 5rem
+  margin-left: 15rem
 </style>

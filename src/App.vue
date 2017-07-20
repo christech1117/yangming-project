@@ -22,19 +22,22 @@ export default {
 <style lang="sass">
 @import "~bootstrap/scss/bootstrap"
 @import './static/css/style.sass'
-  
+
+*
+  animation: fadeIn 0.5s ease both
 .cover
   height: 35rem
   position: relative
-  background: url("./assets/banner.jpg")
+  background: url("/static/img/banner.png")
   background-position: center center
   background-repeat: no-repeat
   background-size: contain
+  margin-bottom: -3.5rem
 
 .brand
   height: 10rem
   width: 50rem
-  background: url("./assets/brand.png")
+  background: url("/static/img/brand.png")
   background-position: center center
   background-repeat: no-repeat
   background-size: contain
@@ -46,11 +49,11 @@ export default {
   a
     color: #555
     &:hover
-      animation: fadeIn 2s ease both
+      animation: fadeInUp 2s ease both
   img
-    margin-bottom: 1rem
-    width: 70%
-
+    width: 50%
+    margin-top: 2.5rem
+    
   .menu
     width: 300px
     margin-bottom: 1.5rem
@@ -60,4 +63,6 @@ export default {
 
 .submenu
   display: inline
+
+
 </style>

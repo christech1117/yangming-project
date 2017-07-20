@@ -19,49 +19,33 @@
       .col-sm-6.col-md-6.col-lg-6
         .row
           .col-sm-6.col-md-6.col-lg-6.work-2.text-right.work-menu
-            router-link(:to="{ path: '/work/1' }")
+            router-link(:to="{ path: '/work/1-1' }")
               img.rounded(src="/static/img/button/work-1.png" onmouseover="this.src='/static/img/button/work-1focus.png'" onmouseout="this.src='/static/img/button/work-1.png'")
           .col-sm-6.col-md-6.col-lg-6.work-3.text-left.work-menu
-            router-link(:to="{ path: '/work/2' }")
+            router-link(:to="{ path: '/work/2-1' }")
               img.rounded(src="/static/img/button/work-2.png" onmouseover="this.src='/static/img/button/work-2focus.png'" onmouseout="this.src='/static/img/button/work-2.png'")
           .col-sm-4.col-md-4.col-lg-4.work-4.text-center
-            router-link(:to="{ path: '/work/3' }")
+            router-link(:to="{ path: '/work/3-1' }")
               img.rounded(src="/static/img/button/work-3.png" onmouseover="this.src='/static/img/button/work-3focus.png'" onmouseout="this.src='/static/img/button/work-3.png'")
           .col-sm-4.col-md-4.col-lg-4.work-6.text-center
-            router-link(:to="{ path: '/work/5' }")
+            router-link(:to="{ path: '/work/5-1' }")
               img.rounded(src="/static/img/button/work-5.png" onmouseover="this.src='/static/img/button/work-5focus.png'" onmouseout="this.src='/static/img/button/work-5.png'")
           .col-sm-4.col-md-4.col-lg-4.work-5.text-center
-            router-link(:to="{ path: '/work/4' }")
+            router-link(:to="{ path: '/work/4-1' }")
               img.rounded(src="/static/img/button/work-4.png" onmouseover="this.src='/static/img/button/work-4focus.png'" onmouseout="this.src='/static/img/button/work-4.png'")
           
         
       .col-sm-3.col-md-3.col-lg-3.text-center
         ul.list-group
           li
-            router-link(:to="{ path: '/scene/1' }")
+            router-link(:to="{ path: '/scene/pre/1' }")
               img.rounded(src="/static/img/button/scene-1.png" onmouseover="this.src='/static/img/button/scene-1focus.png'" onmouseout="this.src='/static/img/button/scene-1.png'")
           li
-            router-link(:to="{ path: '/scene/2' }")
+            router-link(:to="{ path: '/scene/med/1' }")
               img.rounded(src="/static/img/button/scene-2.png" onmouseover="this.src='/static/img/button/scene-2focus.png'" onmouseout="this.src='/static/img/button/scene-2.png'")
           li
-            router-link(:to="{ path: '/scene/3' }")
+            router-link(:to="{ path: '/scene/lat/1' }")
               img.rounded(src="/static/img/button/scene-3.png" onmouseover="this.src='/static/img/button/scene-3focus.png'" onmouseout="this.src='/static/img/button/scene-3.png'")
-          
-    button.btn.btn-primary.btn-lg(type='button', data-toggle='modal', data-target='#flipFlop') 123
-
-    #flipFlop.modal.fade(tabindex='-1', role='dialog', aria-labelledby='modalLabel', aria-hidden='true')
-      .modal-dialog(role='document')
-        .modal-content
-          .modal-header
-            button.close(type='button', data-dismiss='modal', aria-label='Close')
-              span(aria-hidden='true') ×
-            h4#modalLabel.modal-title Flip-flop
-          .modal-body
-            | A type of open-toed sandal.
-          .modal-footer
-            button.btn.btn-secondary(type='button', data-dismiss='modal') Close
-
-
 </template>
 
 <script>
@@ -193,4 +177,7 @@ export default {
     margin-top: 8rem
     width: 90%
 
+img
+  margin: 1rem 0
+  width: 70%
 </style>
