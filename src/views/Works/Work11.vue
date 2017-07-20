@@ -15,7 +15,7 @@
             li.submenu 《土地之聲》
     .row
       .col-sm-3.col-md-3.col-lg-3.text-left.padding-offset
-        img.rounded.workcontent(src="/static/img/button/work-1focus.png")
+        img.rounded.workcontent(src="/assets/button/work-1focus.png")
         span 作者：胡棟民<br>
         span 創作年代：2017<br>
         span 尺寸：長570×寬550×高470公分<br>
@@ -25,17 +25,17 @@
         ul
           li
             router-link(:to="{ path: '/work/1-1' }")
-              img.rounded(src="/static/img/button/workmenu-1focus.png" onmouseover="this.src='/static/img/button/workmenu-1focus.png'" onmouseout="this.src='/static/img/button/workmenu-1focus.png'")
+              img.rounded(src="@/assets/button/workmenu-1focus.png" onmouseover="this.src='/assets/button/workmenu-1focus.png'" onmouseout="this.src='/assets/button/workmenu-1focus.png'")
           li
             router-link(:to="{ path: '/work/1-2' }")
-              img.rounded(src="/static/img/button/workmenu-2.png" onmouseover="this.src='/static/img/button/workmenu-2focus.png'" onmouseout="this.src='/static/img/button/workmenu-2.png'")
+              img.rounded(src="/assets/button/workmenu-2.png" onmouseover="this.src='/assets/button/workmenu-2focus.png'" onmouseout="this.src='/assets/button/workmenu-2.png'")
           li
             router-link(:to="{ path: '/work/1-3' }")
-              img.rounded(src="/static/img/button/workmenu-3.png" onmouseover="this.src='/static/img/button/workmenu-3focus.png'" onmouseout="this.src='/static/img/button/workmenu-3.png'")
+              img.rounded(src="/assets/button/workmenu-3.png" onmouseover="this.src='/assets/button/workmenu-3focus.png'" onmouseout="this.src='/assets/button/workmenu-3.png'")
       .col-sm-5.col-md-5.col-lg-5
         h1 創作理念
         p 試圖在這樣令人不安的醫療空間中，讓所有受傷的心靈可以藉由作品得到慰藉與撫平，以最純粹的白色添加些許漸層七彩，除了增加作品豐富度也像醫護人員為病患服務最純粹之心，治療病患外在的傷，而「雲想」則療癒每位進出醫院民眾之心。
-        img.rounded.workcontent(src="/static/img/button/plan-1.png")
+        img.rounded.workcontent(src="/assets/button/plan-1.png")
 </template>
 
 <script>

@@ -37,8 +37,8 @@ import LatScenes3 from '@/views/Scenes/LatScenes3'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history', // html5
-  base: __dirname, // router起始位置
+  // mode: 'history', // html5
+  // base: __dirname, // router起始位置
   routes: [
     { path: '/', name: 'Home', component: Home },
 
