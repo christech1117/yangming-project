@@ -1,5 +1,5 @@
 <template lang="pug">
-  #PlanIdea
+  #Plan
     .row
       .col-sm-10.col-md-10.col-lg-10.text-left.offset
         ol
@@ -15,14 +15,14 @@
         ul
           li
             router-link(:to="{ path: '/plan/3' }")
-              img.rounded(src="/static/img/button/plan-3.png" onmouseover="this.src='/static/img/button/plan-3.png'" onmouseout="this.src='/static/img/button/plan-3.png'")
+              img.rounded(src="static/img/button/plan-3.png" onmouseover="this.src='static/img/button/plan-3focus.png'" onmouseout="this.src='static/img/button/plan-3.png'")
           li
             router-link(:to="{ path: '/plan/4' }")
-              img.rounded(src="/static/img/button/plan-4.png" onmouseover="this.src='/static/img/button/plan-4.png'" onmouseout="this.src='/static/img/button/plan-4.png'")
+              img.rounded(src="static/img/button/plan-4.png" onmouseover="this.src='static/img/button/plan-4focus.png'" onmouseout="this.src='static/img/button/plan-4.png'")
       .col-sm-9.col-md-9.col-lg-9
         h1 行政團隊
         .row
-          .col-sm-4.col-md-4.col-lg-4
+          .col-sm-5.col-md-5.col-lg-5
             pre
               h2 執行及徵選小組委員
               p 陽明大學附設醫院院長　　　　　　　　羅世薰院長
@@ -35,9 +35,9 @@
               p 田中央聯郭合建築師事務所　　　　　　黃聲遠建築師
               p 宜蘭大學建築及永續規劃究所　　　　　何武璋副教授
           .col-sm-4.col-md-4.col-lg-4
-            img.rounded.contentimg(src="/static/img/button/plan-1.png")
+            img.rounded(src="static/img/plan/team.jpg" style="width: 150%")
         .row
-          .col-sm-4.col-md-4.col-lg-4
+          .col-sm-6.col-md-6.col-lg-6
             pre
               h2 陽大附醫工作團隊
               p 陽明大學附設醫院公務室　　　　　　　張永義、李麗惠、江芳瑜
@@ -72,29 +72,4 @@ export default {
 <style scoped lang="sass">
 @import './static/css/style.sass'
 
-h1
-  font-size: 1.8rem
-  margin-top: 2.5rem
-h2
-  font-size: 1.5rem
-  margin-top: 3rem
-p
-  margin: 0.8rem 0
-
-ol
-  margin: -1.2rem 0 2.2rem 6rem
-  a, span
-    color: #005AB5
-
-.submenu
-  display: inline
-
-.active
-  border-bottom: #005AB5 1px solid
-
-.contentimg
-  width: 100% 
-
-.offset
-  margin-left: 5rem
 </style>

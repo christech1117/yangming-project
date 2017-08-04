@@ -1,21 +1,27 @@
 <template lang="pug">
   #app
-    .cover
+    .cover(:style="{backgroundImage: 'url(' + bg + ')'}")
     router-link(:to="{ path: '/' }")
-      .brand
+      .brand(:style="{backgroundImage: 'url(' + logo + ')'}")
     .row
       .col-sm-3.col-md-3.col-lg-3.text-center
-        img.menu.plan(src="/static/img/button/plan-0.png")
+        img.menu.plan(src="static/img/button/plan-0.png")
       .col-sm-6.col-md-6.col-lg-6.text-center
-        img.menu(src="/static/img/button/work-0.png")
+        img.menu(src="static/img/button/work-0.png")
       .col-sm-3.col-md-3.col-lg-3.text-center
-        img.menu(src="/static/img/button/scene-0.png")
+        img.menu(src="static/img/button/scene-0.png")
     router-view
 </template>
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  data () {
+    return {
+      bg: require("@/assets/banner.png"),
+      logo: require("@/assets/brand.png")
+    }
+  }
 }
 </script>
 
@@ -25,10 +31,11 @@ export default {
 
 *
   animation: fadeIn 0.5s ease both
+  
 .cover
   height: 35rem
   position: relative
-  background: url("/static/img/banner.png")
+  // background: url(/static/img/banner.png)
   background-position: center center
   background-repeat: no-repeat
   background-size: contain
@@ -37,7 +44,7 @@ export default {
 .brand
   height: 10rem
   width: 50rem
-  background: url("/static/img/brand.png")
+  // background: url(/static/img/brand.png)
   background-position: center center
   background-repeat: no-repeat
   background-size: contain

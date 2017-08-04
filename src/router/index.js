@@ -4,6 +4,9 @@ import Home from '@/views/Home'
 
 import PlanIdea from '@/views/Plans/PlanIdea'
 import PlanTeam from '@/views/Plans/PlanTeam'
+import Plan3 from '@/views/Plans/Plan3'
+import Plan4 from '@/views/Plans/Plan4'
+
 
 import Work11 from '@/views/Works/Work11'
 import Work12 from '@/views/Works/Work12'
@@ -44,6 +47,8 @@ export default new Router({
 
     { path: '/plan/idea', name: 'PlanIdea', component: PlanIdea },
     { path: '/plan/team', name: 'PlanTeam', component: PlanTeam },
+    { path: '/plan/3', name: 'Plan3', component: Plan3 },
+    { path: '/plan/4', name: 'Plan4', component: Plan4 },
 
     { path: '/work/1-1', name: 'Work11', component: Work11 },
     { path: '/work/1-2', name: 'Work12', component: Work12 },
