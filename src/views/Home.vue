@@ -163,20 +163,20 @@ export default {
 .work-menu
   height: 20rem
 
-.work-2
-  img
-    margin-top: 4rem
+// .work-2
+//   img
+//     margin-top: 4rem
 
-.work-4, .work-5
-  img
-    width: 90%
+// .work-4, .work-5
+//   img
+//     width: 90%
 
-.work-6
-  img
-    margin-top: 8rem
-    width: 90%
+// .work-6
+//   img
+//     margin-top: 8rem
+//     width: 90%
 
-img
-  margin: 1rem 0
-  width: 70%
+// img
+  // margin: 1rem 0
+  // width: 100%
 </style>

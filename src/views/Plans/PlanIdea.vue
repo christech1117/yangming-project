@@ -4,10 +4,10 @@
       .col-sm-10.col-md-10.col-lg-10.text-left.offset
         ol
           span 。
-          router-link(:to="{ path: '/plan/idea' }") 
+          router-link.ainline(:to="{ path: '/plan/idea' }") 
             li.submenu.active 公共藝術理念
           span 。
-          router-link(:to="{ path: '/plan/team' }") 
+          router-link.ainline(:to="{ path: '/plan/team' }") 
             li.submenu 行政團隊
           span 。
     .row

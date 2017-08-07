@@ -4,13 +4,13 @@
       .col-sm-10.col-md-10.col-lg-10.text-right.offset
         ol
           span 。
-          router-link(:to="{ path: '/scene/pre/1' }") 
+          router-link.ainline(:to="{ path: '/scene/pre/1' }") 
             li.submenu.active 前期藝術參與
           span 。
-          router-link(:to="{ path: '/scene/med/1' }") 
+          router-link.ainline(:to="{ path: '/scene/med/1' }") 
             li.submenu 藝術家工作坊
           span 。
-          router-link(:to="{ path: '/scene/lat/1' }") 
+          router-link.ainline(:to="{ path: '/scene/lat/1' }") 
             li.submenu 永續推廣
           span 。
     .row

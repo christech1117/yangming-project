@@ -3,15 +3,15 @@
     .row
       .col-sm-10.col-md-10.col-lg-10.text-center.offset
         ol
-          router-link(:to="{ path: '/work/1-1' }") 
+          router-link.ainline(:to="{ path: '/work/1-1' }") 
             li.submenu 《雲想》
-          router-link(:to="{ path: '/work/2-1' }") 
+          router-link.ainline(:to="{ path: '/work/2-1' }") 
             li.submenu 《大地之書》
-          router-link(:to="{ path: '/work/3-1' }") 
+          router-link.ainline(:to="{ path: '/work/3-1' }") 
             li.submenu.active 《光之舞》
-          router-link(:to="{ path: '/work/4-1' }") 
+          router-link.ainline(:to="{ path: '/work/4-1' }") 
             li.submenu 《復原．新生》
-          router-link(:to="{ path: '/work/5-1' }") 
+          router-link.ainline(:to="{ path: '/work/5-1' }") 
             li.submenu 《土地之聲》
     .row
       .col-sm-3.col-md-3.col-lg-3.text-left.padding-offset

@@ -4,10 +4,10 @@
       .col-sm-10.col-md-10.col-lg-10.text-left.offset
         ol
           span 。
-          router-link(:to="{ path: '/plan/idea' }") 
-            li.submenu.active 公共藝術理念
+          router-link.ainline(:to="{ path: '/plan/idea' }") 
+            li.submenu 公共藝術理念
           span 。
-          router-link(:to="{ path: '/plan/team' }") 
+          router-link.ainline(:to="{ path: '/plan/team' }") 
             li.submenu 行政團隊
           span 。
     .row
@@ -15,7 +15,7 @@
         ul
           li
             router-link(:to="{ path: '/plan/3' }")
-              img.rounded(src="static/img/button/plan-3.png" onmouseover="this.src='static/img/button/plan-3focus.png'" onmouseout="this.src='static/img/button/plan-3.png'")
+              img.rounded(src="static/img/button/plan-3focus.png" onmouseover="this.src='static/img/button/plan-3focus.png'" onmouseout="this.src='static/img/button/plan-3focus.png'")
           li
             router-link(:to="{ path: '/plan/4' }")
               img.rounded(src="static/img/button/plan-4.png" onmouseover="this.src='static/img/button/plan-4focus.png'" onmouseout="this.src='static/img/button/plan-4.png'")
