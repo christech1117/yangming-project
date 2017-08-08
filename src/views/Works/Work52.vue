@@ -36,22 +36,22 @@
         h1 創作過程
         .row
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-1.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-1.jpg" style="width: 100%; height: 80%")
             p.text-center 1.基礎開挖
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-2.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-2.jpg" style="width: 100%; height: 80%")
             p.text-center 2.第一層混凝土
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-3.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-3.jpg" style="width: 100%; height: 80%")
             p.text-center 3.底檯吊掛安裝
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-4.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-4.jpg" style="width: 100%; height: 80%")
             p.text-center 4.第二層混凝土鋼筋
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-5.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-5.jpg" style="width: 100%; height: 80%")
             p.text-center 5.第二層混凝土結構
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-6.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-6.jpg" style="width: 100%; height: 80%")
             p.text-center 6.斷片固定
 </template>
 

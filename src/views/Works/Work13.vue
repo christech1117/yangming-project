@@ -34,11 +34,11 @@
               img.rounded(src="static/img/button/workmenu-3focus.png" onmouseover="this.src='static/img/button/workmenu-3focus.png'" onmouseout="this.src='static/img/button/workmenu-3focus.png'")
       .col-sm-5.col-md-5.col-lg-5
         h1 成果展現
-        img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-3-1.jpg" style="width: 50%; height: 18rem")
-        img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-3-2.jpg" style="width: 50%; height: 18rem")
-        img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-3-3.jpg" style="width: 50%; height: 18rem")
-        img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-3-4.jpg" style="width: 50%; height: 18rem")
-        img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-3-5.jpg" style="width: 50%; height: 18rem")
+        img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-3-1.jpg" style="width: 50%; height: 30%")
+        img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-3-2.jpg" style="width: 50%; height: 30%")
+        img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-3-3.jpg" style="width: 50%; height: 30%")
+        img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-3-4.jpg" style="width: 50%; height: 30%")
+        img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-3-5.jpg" style="width: 50%; height: 30%")
 </template>
 
 <script>

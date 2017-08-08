@@ -36,22 +36,22 @@
         h1 創作過程
         .row
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-2-1.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-2-1.jpg" style="width: 100%; height: 80%")
             p.text-center 1.鷹架搭設
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-2-2.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-2-2.jpg" style="width: 100%; height: 80%")
             p.text-center 2.作品結構進場
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-2-3.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-2-3.jpg" style="width: 100%; height: 80%")
             p.text-center 3.升降結構安裝面
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-2-4.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-2-4.jpg" style="width: 100%; height: 80%")
             p.text-center 4.造型結構鋼管安裝
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-2-5.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-2-5.jpg" style="width: 100%; height: 80%")
             p.text-center 5.升降測試
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-2-6.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-2-6.jpg" style="width: 100%; height: 80%")
             p.text-center 6.調整作品至最佳位置
 </template>
 

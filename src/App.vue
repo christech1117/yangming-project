@@ -5,11 +5,14 @@
       .brand(:style="{backgroundImage: 'url(' + logo + ')'}")
     .row
       .col-sm-3.col-md-3.col-lg-3.text-center
-        img.menu.plan(src="static/img/button/plan-0.png")
+        router-link(:to="{ path: '/plan/idea' }")
+          img.menu.plan(src="static/img/button/plan-0.png")
       .col-sm-6.col-md-6.col-lg-6.text-center
-        img.menu(src="static/img/button/work-0.png")
+        router-link(:to="{ path: '/work/1-1' }")
+          img.menu(src="static/img/button/work-0.png")
       .col-sm-3.col-md-3.col-lg-3.text-center
-        img.menu(src="static/img/button/scene-0.png")
+        router-link(:to="{ path: '/scene/pre/1' }")
+          img.menu(src="static/img/button/scene-0.png")
     router-view
 </template>
 
@@ -43,7 +46,7 @@ export default {
 
 .brand
   height: 10rem
-  width: 50rem
+  width: 40rem
   // background: url(/static/img/brand.png)
   background-position: center center
   background-repeat: no-repeat
@@ -51,6 +54,10 @@ export default {
   position: absolute
   top: 100px
   right: 110px
+  &:hover
+    width: 50rem
+    height: 10rem
+    +trans
 
 .row
   a
