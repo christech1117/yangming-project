@@ -32,7 +32,7 @@
           li
             router-link(:to="{ path: '/work/1-3' }")
               img.rounded(src="static/img/button/workmenu-3.png" onmouseover="this.src='static/img/button/workmenu-3focus.png'" onmouseout="this.src='static/img/button/workmenu-3.png'")
-      .col-sm-5.col-md-5.col-lg-5
+      .col-sm-6.col-md-6.col-lg-6
         h1 創作過程
         .row
           .col-sm-6.col-md-6.col-lg-6

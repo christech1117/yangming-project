@@ -31,7 +31,7 @@
           li
             router-link(:to="{ path: '/work/4-3' }")
               img.rounded(src="static/img/button/workmenu-3.png" onmouseover="this.src='static/img/button/workmenu-3focus.png'" onmouseout="this.src='static/img/button/workmenu-3.png'")
-      .col-sm-5.col-md-5.col-lg-5
+      .col-sm-6.col-md-6.col-lg-6
         h1 創作理念
         p 以雙蛇纏繞成圓形的造形，融合如意吉祥圖案( 雙如意) 象徵醫病雙方面的圓滿。以富含生命力 的形體扭動、翻騰，視覺上從外向內或從內（大廳）向外，都能呈現動中宜靜氣勢；單純的色調（古銅綠）靜謐安寧，試著幫助人們舒解心情、撫慰不安。
         img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-1-1.jpg")

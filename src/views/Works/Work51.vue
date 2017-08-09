@@ -30,7 +30,7 @@
           li
             router-link(:to="{ path: '/work/5-3' }")
               img.rounded(src="static/img/button/workmenu-3.png" onmouseover="this.src='static/img/button/workmenu-3focus.png'" onmouseout="this.src='static/img/button/workmenu-3.png'")
-      .col-sm-5.col-md-5.col-lg-5
+      .col-sm-6.col-md-6.col-lg-6
         h1 創作理念
         p 每個人心中都有一響難忘的聲音，特別是和土地有關的聲音，總能令人感到慰藉。透過「敲擊」 「聆聽」的行為遙想打鐵街過往的歲月，從聽覺獲得不同的感官刺激，為沉重的鬥病生活添增新鮮色彩。
         img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-1-1.jpg")

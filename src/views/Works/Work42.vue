@@ -31,26 +31,26 @@
           li
             router-link(:to="{ path: '/work/4-3' }")
               img.rounded(src="static/img/button/workmenu-3.png" onmouseover="this.src='static/img/button/workmenu-3focus.png'" onmouseout="this.src='static/img/button/workmenu-3.png'")
-      .col-sm-5.col-md-5.col-lg-5
+      .col-sm-6.col-md-6.col-lg-6
         h1 創作過程
         .row
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-1.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-1.jpg" style="width: 100%; height: 80%")
             p.text-center 1.螺栓預埋
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-2.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-2.jpg" style="width: 100%; height: 80%")
             p.text-center 2.灌注
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-3.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-3.jpg" style="width: 100%; height: 80%")
             p.text-center 3.作品進場安裝
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-4.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-4.jpg" style="width: 100%; height: 80%")
             p.text-center 4.安裝固定後RC加強
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-5.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-5.jpg" style="width: 100%; height: 80%")
             p.text-center 5.覆土
           .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-6.jpg" style="width: 100%; height: 18rem")
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-6.jpg" style="width: 100%; height: 80%")
             p.text-center 6.覆土植草皮完成
 </template>
 

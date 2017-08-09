@@ -31,7 +31,7 @@
           li
             router-link(:to="{ path: '/work/2-3' }")
               img.rounded(src="static/img/button/workmenu-3.png" onmouseover="this.src='static/img/button/workmenu-3focus.png'" onmouseout="this.src='static/img/button/workmenu-3.png'")
-      .col-sm-5.col-md-5.col-lg-5
+      .col-sm-6.col-md-6.col-lg-6
         h1 創作理念
         p 獲得新知時總是令人感到愉悅與充實。一本本記載宜蘭植物之美的大地之書點綴在公園中，透過「學習」「閱讀」的行為獲得知識及心靈的滿足，進而忘記病痛的煩憂。
         img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-1-1.jpg")
