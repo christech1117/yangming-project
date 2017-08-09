@@ -3,17 +3,18 @@
     .cover(:style="{backgroundImage: 'url(' + bg + ')'}")
     router-link(:to="{ path: '/' }")
       .brand(:style="{backgroundImage: 'url(' + logo + ')'}")
-    .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
-        router-link(:to="{ path: '/plan/idea' }")
-          img.menu.plan(src="static/img/button/plan-0.png")
-      .col-sm-6.col-md-6.col-lg-6.text-center
-        router-link(:to="{ path: '/work/1-1' }")
-          img.menu(src="static/img/button/work-0.png")
-      .col-sm-3.col-md-3.col-lg-3.text-center
-        router-link(:to="{ path: '/scene/pre/1' }")
-          img.menu(src="static/img/button/scene-0.png")
-    router-view
+    .conatiner
+      .row
+        .col-sm-3.col-md-3.col-lg-3.text-right(style="margin-left: 5rem")
+          router-link(:to="{ path: '/plan/idea' }")
+            img.menu.plan(src="static/img/button/plan-0.png")
+        .col-sm-5.col-md-5.col-lg-5.text-center
+          router-link(:to="{ path: '/work/1-1' }")
+            img.menu(src="static/img/button/work-0.png")
+        .col-sm-3.col-md-3.col-lg-3
+          router-link(:to="{ path: '/scene/pre/1' }")
+            img.menu(src="static/img/button/scene-0.png")
+      router-view
 </template>
 
 <script>
@@ -46,7 +47,7 @@ export default {
 
 .brand
   height: 10rem
-  width: 40rem
+  width: 80rem
   // background: url(/static/img/brand.png)
   background-position: center center
   background-repeat: no-repeat
@@ -55,8 +56,8 @@ export default {
   top: 100px
   right: 110px
   &:hover
-    width: 50rem
-    height: 10rem
+    width: 90rem
+    height: 12rem
     +trans
 
 .row

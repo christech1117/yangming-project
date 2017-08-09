@@ -1,7 +1,7 @@
 <template lang="pug">
   #Home
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-3.col-md-3.col-lg-3.text-right
         ul.list-group
           li
             router-link(:to="{ path: '/plan/idea' }")
@@ -16,7 +16,7 @@
             router-link(:to="{ path: '/plan/4' }")
               img.rounded(src="static/img/button/plan-4.png" onmouseover="this.src='static/img/button/plan-4focus.png'" onmouseout="this.src='static/img/button/plan-4.png'")
 
-      .col-sm-6.col-md-6.col-lg-6
+      .col-sm-6.col-md-6.col-lg-6.text-center
         .row
           .col-sm-6.col-md-6.col-lg-6.work-2.text-right.work-menu
             router-link(:to="{ path: '/work/1-1' }")
@@ -34,7 +34,7 @@
             router-link(:to="{ path: '/work/4-1' }")
               img.rounded(src="static/img/button/work-4.png" onmouseover="this.src='static/img/button/work-4focus.png'" onmouseout="this.src='static/img/button/work-4.png'")
 
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-3.col-md-3.col-lg-3
         ul.list-group
           li
             router-link(:to="{ path: '/scene/pre/1' }")
@@ -160,7 +160,10 @@ export default {
 @import './static/css/style.sass'
 
 a
-  width: 70%
+  width: 60%
+  img
+    width: 100%
+
 .work-menu
   height: 20rem
 
