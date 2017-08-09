@@ -1,6 +1,6 @@
 <template lang="pug">
   #Home
-    .row
+    .row(style="margin-left: 10rem")
       .col-sm-3.col-md-3.col-lg-3.text-right
         ul.list-group
           li
@@ -16,7 +16,7 @@
             router-link(:to="{ path: '/plan/4' }")
               img.rounded(src="static/img/button/plan-4.png" onmouseover="this.src='static/img/button/plan-4focus.png'" onmouseout="this.src='static/img/button/plan-4.png'")
 
-      .col-sm-6.col-md-6.col-lg-6.text-center
+      .col-sm-5.col-md-5.col-lg-5.text-center
         .row
           .col-sm-6.col-md-6.col-lg-6.work-2.text-right.work-menu
             router-link(:to="{ path: '/work/1-1' }")
@@ -160,7 +160,7 @@ export default {
 @import './static/css/style.sass'
 
 a
-  width: 60%
+  width: 70%
   img
     width: 100%
 

@@ -3,18 +3,18 @@
     .cover(:style="{backgroundImage: 'url(' + bg + ')'}")
     router-link(:to="{ path: '/' }")
       .brand(:style="{backgroundImage: 'url(' + logo + ')'}")
-    .conatiner
-      .row
-        .col-sm-3.col-md-3.col-lg-3.text-right(style="margin-left: 5rem")
-          router-link(:to="{ path: '/plan/idea' }")
-            img.menu.plan(src="static/img/button/plan-0.png")
-        .col-sm-5.col-md-5.col-lg-5.text-center
-          router-link(:to="{ path: '/work/1-1' }")
-            img.menu(src="static/img/button/work-0.png")
-        .col-sm-3.col-md-3.col-lg-3
-          router-link(:to="{ path: '/scene/pre/1' }")
-            img.menu(src="static/img/button/scene-0.png")
-      router-view
+
+    .row(style="margin-left: 5rem")
+      .col-sm-3.col-md-3.col-lg-3.text-right
+        router-link(:to="{ path: '/plan/idea' }")
+          img.menu.plan(src="static/img/button/plan-0.png")
+      .col-sm-5.col-md-5.col-lg-5.text-center
+        router-link(:to="{ path: '/work/1-1' }")
+          img.menu(src="static/img/button/work-0.png")
+      .col-sm-3.col-md-3.col-lg-3
+        router-link(:to="{ path: '/scene/pre/1' }")
+          img.menu(src="static/img/button/scene-0.png")
+    router-view
 </template>
 
 <script>
