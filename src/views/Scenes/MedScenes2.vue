@@ -41,7 +41,7 @@
         .row
           .col-sm-12.col-md-12.col-lg-12.text-center
             img.img-thumbnail(src="static/img/scene/med-2-1.jpg" style="width: 30%; height: 30%")
-            img.img-thumbnail(src="static/img/scene/med-2-2.jpg" style="width: 30%; height: 30%")
+            //- img.img-thumbnail(src="static/img/scene/med-2-2.jpg" style="width: 30%; height: 30%")
             img.img-thumbnail(src="static/img/scene/med-2-3.jpg" style="width: 30%; height: 30%")
             img.img-thumbnail(src="static/img/scene/med-2-4.jpg" style="width: 30%; height: 30%")
             img.img-thumbnail(src="static/img/scene/med-2-5.jpg" style="width: 30%; height: 30%")

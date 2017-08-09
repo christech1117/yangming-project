@@ -19,7 +19,7 @@
         span 作者：許敬忠<br>
         span 尺寸：長135~150cm × 寬60~130cm×高24cm<br>
         span 材質：不鏽鋼、鍍膜玻璃<br>
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-2.col-md-2.col-lg-2.text-center
         ul
           li
             router-link(:to="{ path: '/work/3-1' }")

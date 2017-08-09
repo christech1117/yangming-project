@@ -21,7 +21,7 @@
         span 尺寸：長570×寬550×高470公分<br>
         span 材質：合成樹脂烤漆<br>
 
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-2.col-md-2.col-lg-2.text-center
         ul
           li
             router-link(:to="{ path: '/work/1-1' }")

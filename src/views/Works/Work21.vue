@@ -20,7 +20,7 @@
         span 尺寸：(鑄銅)長23×寬28×高4公分〜長47×寬28×高6公分、(石)寬×深25×30cm~50×30cm；高40〜130cm<br>
         span 材質：鑄銅、石<br>
 
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-2.col-md-2.col-lg-2.text-center
         ul
           li
             router-link(:to="{ path: '/work/2-1' }")
