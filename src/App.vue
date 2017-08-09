@@ -14,7 +14,8 @@
       .col-sm-3.col-md-3.col-lg-3
         router-link(:to="{ path: '/scene/pre/1' }")
           img.menu(src="static/img/button/scene-0.png")
-    router-view
+    .container
+      router-view
 </template>
 
 <script>

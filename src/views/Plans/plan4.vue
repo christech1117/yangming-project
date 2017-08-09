@@ -1,7 +1,7 @@
 <template lang="pug">
   #Plan
     .row
-      .col-sm-10.col-md-10.col-lg-10.text-left.offset
+      .col-sm-3.col-md-3.col-lg-3.text-right.submenu
         ol
           span 。
           router-link.ainline(:to="{ path: '/plan/idea' }") 
