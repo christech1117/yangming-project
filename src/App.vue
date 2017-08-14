@@ -54,11 +54,10 @@ export default {
   background-repeat: no-repeat
   background-size: contain
   position: absolute
-  top: 100px
-  right: 110px
+  top: 10%
+  right: 5%
   &:hover
-    width: 90rem
-    height: 12rem
+    height: 11rem
     +trans
 
 .row

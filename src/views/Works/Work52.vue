@@ -16,10 +16,9 @@
     .row
       .col-sm-3.col-md-3.col-lg-3.text-left.padding-offset
         img.rounded.workcontent(src="static/img/button/work-5focus.png")
-        span 作者：胡棟民<br>
-        span 創作年代：2017<br>
-        span 尺寸：長570×寬550×高470公分<br>
-        span 材質：合成樹脂烤漆<br>
+        span 作者：金澤健一<br>
+        span 尺寸：外徑φ380cm × 內徑φ200cm × 座高75cm<br>
+        span 材質：不鏽鋼<br>
 
       .col-sm-2.col-md-2.col-lg-2.text-center
         ul
@@ -35,23 +34,23 @@
       .col-sm-5.col-md-5.col-lg-5
         h1 創作過程
         .row
-          .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-1.jpg" style="width: 100%; height: 85%")
+          .col-sm-12.col-md-12.col-lg-12.text-center
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-1.jpg" style="width: 80%")
             p.text-center 1.基礎開挖
-          .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-2.jpg" style="width: 100%; height: 85%")
+          .col-sm-12.col-md-12.col-lg-12.text-center
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-2.jpg" style="width: 80%")
             p.text-center 2.第一層混凝土
-          .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-3.jpg" style="width: 100%; height: 85%")
+          .col-sm-12.col-md-12.col-lg-12.text-center
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-3.jpg" style="width: 80%")
             p.text-center 3.底檯吊掛安裝
-          .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-4.jpg" style="width: 100%; height: 85%")
+          .col-sm-12.col-md-12.col-lg-12.text-center
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-4.jpg" style="width: 80%")
             p.text-center 4.第二層混凝土鋼筋
-          .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-5.jpg" style="width: 100%; height: 85%")
+          .col-sm-12.col-md-12.col-lg-12.text-center
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-5.jpg" style="width: 80%")
             p.text-center 5.第二層混凝土結構
-          .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-6.jpg" style="width: 100%; height: 85%")
+          .col-sm-12.col-md-12.col-lg-12.text-center
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/5/work-2-6.jpg" style="width: 80%")
             p.text-center 6.斷片固定
 </template>
 

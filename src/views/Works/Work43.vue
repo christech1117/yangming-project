@@ -17,8 +17,7 @@
       .col-sm-3.col-md-3.col-lg-3.text-left.padding-offset
         img.rounded.workcontent(src="static/img/button/work-4focus.png")
         span 作者：許維忠<br>
-        span 創作年代：2017<br>
-        span 尺寸：長460×寬420×高400公分<br>
+        span 尺寸：長460×寬420×高400cm<br>
         span 材質：鑄銅<br>
       .col-sm-2.col-md-2.col-lg-2.text-center
         ul

@@ -16,10 +16,9 @@
     .row
       .col-sm-3.col-md-3.col-lg-3.text-left.padding-offset
         img.rounded.workcontent(src="static/img/button/work-2focus.png")
-        span 作者：胡棟民<br>
-        span 創作年代：2017<br>
-        span 尺寸：長570×寬550×高470公分<br>
-        span 材質：合成樹脂烤漆<br>
+        span 作者：笠原由起子<br>
+        span 尺寸：(鑄銅)長23×寬28×高4cm〜長47×寬28×高6cm、(石)寬×深25×30cm~50×30cm；高40〜130cm<br>
+        span 材質：鑄銅、石<br>
 
       .col-sm-2.col-md-2.col-lg-2.text-center
         ul
@@ -35,23 +34,23 @@
       .col-sm-6.col-md-6.col-lg-6
         h1 創作過程
         .row
-          .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-2-1.jpg" style="width: 100%; height: 80%")
+          .col-sm-12.col-md-12.col-lg-12.text-center
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-2-1.jpg" style="width: 80%")
             p.text-center 1.基礎開挖
-          .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-2-2.jpg" style="width: 100%; height: 80%")
+          .col-sm-12.col-md-12.col-lg-12.text-center
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-2-2.jpg" style="width: 80%")
             p.text-center 2.第一層混凝土
-          .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-2-3.jpg" style="width: 100%; height: 80%")
+          .col-sm-12.col-md-12.col-lg-12.text-center
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-2-3.jpg" style="width: 80%")
             p.text-center 3.第二層混凝土
-          .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-2-4.jpg" style="width: 100%; height: 80%")
+          .col-sm-12.col-md-12.col-lg-12.text-center
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-2-4.jpg" style="width: 80%")
             p.text-center 4.石材固定、作品配置確認
-          .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-2-5.jpg" style="width: 100%; height: 80%")
+          .col-sm-12.col-md-12.col-lg-12.text-center
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-2-5.jpg" style="width: 80%")
             p.text-center 5.作品安裝固定
-          .col-sm-6.col-md-6.col-lg-6
-            img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-2-6.jpg" style="width: 100%; height: 80%")
+          .col-sm-12.col-md-12.col-lg-12.text-center
+            img.rounded.workcontent.img-thumbnail(src="static/img/work/2/work-2-6.jpg" style="width: 80%")
             p.text-center 6.作品說明牌安裝
 </template>
 

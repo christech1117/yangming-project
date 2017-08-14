@@ -16,10 +16,9 @@
     .row
       .col-sm-3.col-md-3.col-lg-3.text-left.padding-offset
         img.rounded.workcontent(src="static/img/button/work-3focus.png")
-        span 作者：胡棟民<br>
-        span 創作年代：2017<br>
-        span 尺寸：長570×寬550×高470公分<br>
-        span 材質：合成樹脂烤漆<br>
+        span 作者：許敬忠<br>
+        span 尺寸：長135~150cm × 寬60~130cm×高24cm<br>
+        span 材質：不鏽鋼、鍍膜玻璃<br>
 
       .col-sm-2.col-md-2.col-lg-2.text-center
         ul

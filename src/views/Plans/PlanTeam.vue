@@ -1,7 +1,7 @@
 <template lang="pug">
   #Plan
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-right.submenu
+      .col-sm-10.col-md-10.col-lg-10.submenu
         ol
           span 。
           router-link.ainline(:to="{ path: '/plan/idea' }") 
@@ -47,17 +47,17 @@
           .col-sm-11.col-md-11.col-lg-11
             pre
               h2 公共藝術規劃團隊
-              p 計畫主持人　　　　　　　　　　　　　京石文化設計有限公司
-              p 策劃人　　　　　　　　　　　　　　　許敬忠
-              p 協力團隊　　　　　　　　　　　　　　TWON ART CO.、開放空間文教基金會、日大重機、林育信結構技師事務所
-              p 藝術家團隊　　　　　　　　　　　　　許維忠、胡棟民、許敬忠、金澤健一、笠原由起子
-              p 民眾參與團隊　　　　　　　　　　　　李哲榮、許敬忠、潘勁瑞、李岳庚、TWON ART CO.、開放空間文教基金會、習作有限公司
-              p 行政團隊　　　　　　　　　　　　　　林士邦、汪靜宜、高德恩、廖姿綺、趙啟揚
+              p 計畫主持人　　　　　　　京石文化設計有限公司
+              p 策劃人　　　　　　　　　許敬忠
+              p 協力團隊　　　　　　　　TWON ART CO.、開放空間文教基金會、日大重機、林育信結構技師事務所
+              p 藝術家團隊　　　　　　　許維忠、胡棟民、許敬忠、金澤健一、笠原由起子
+              p 民眾參與團隊　　　　　　李哲榮、許敬忠、潘勁瑞、李岳庚、TWON ART CO.、開放空間文教基金會、習作有限公司
+              p 行政團隊　　　　　　　　林士邦、汪靜宜、高德恩、廖姿綺、趙啟揚
         .row
           .col-sm-11.col-md-11.col-lg-11
             pre
               h2 服務及執行團隊
-              p 羅傑藝術文化有限公司　　　　　　　　羅傑、簡敏怡、陳琦蓁
+              p 羅傑藝術文化有限公司　　羅傑、簡敏怡、陳琦蓁
 </template>
 
 <script>
