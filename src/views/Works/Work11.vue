@@ -14,7 +14,7 @@
           router-link.ainline(:to="{ path: '/work/5-1' }") 
             li.submenu 《土地之聲》
     .row
-      .col-sm-12.col-md-12.col-lg-12.text-center
+      .col-sm-12.col-md-12.col-lg-4.text-center
         .row
           .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent(src="static/img/button/work-1focus.png")
