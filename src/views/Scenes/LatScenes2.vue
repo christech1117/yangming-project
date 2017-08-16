@@ -30,7 +30,7 @@
         
             //- p ● 線上連結網址：
             //- router-link(:to="{ path: '/' }") ＰＤＦ
-            div(data-configid="30626926/52138090" style="width:800px; height:600px;" class="issuuembed")
+            iframe(style="width:800px; height:548px;" src="//e.issuu.com/embed.html#30626926/52138090" frameborder="0" allowfullscreen)
 </template>
 
 <script>
@@ -38,6 +38,9 @@ export default {
   data () {
     return {
     }
+  },
+  created () {
+    //  window.location.reload()
   }
 }
 </script>

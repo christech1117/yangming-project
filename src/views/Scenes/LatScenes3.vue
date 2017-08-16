@@ -32,8 +32,7 @@
         p ● 執行單位：羅傑藝術文化有限公司
         p ● 攝影團隊：榖雨展演協創
         
-        video(width="100%" controls)
-          source(src="static/video/scene_video.mp4" type="video/mp4")
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Qe3ft6o8guQ" frameborder="0" allowfullscreen)
 </template>
 
 <script>
