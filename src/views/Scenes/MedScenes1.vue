@@ -14,7 +14,7 @@
             li.submenu 永續推廣
           span 。
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
         ul
           li
             router-link(:to="{ path: '/scene/med/1' }")
@@ -31,7 +31,7 @@
           li
             router-link(:to="{ path: '/scene/med/5' }")
               img.rounded(src="static/img/button/scene-med-5.png" onmouseover="this.src='static/img/button/scene-med-5focus.png'" onmouseout="this.src='static/img/button/scene-med-5.png'")
-      .col-sm-8.col-md-8.col-lg-8
+      .col-sm-7.col-md-7.col-lg-7
         h1 《心心相印》版畫DIY活動
         p ● 活動說明：現場提供各種「心」造型木刻版，提供民眾DIY印製，可以帶走自己親手製作的卡片，不限人數，時間內皆可參加，藝術家於活動結束，挑選7件優秀作品於裱框後設置於4-8F牆面永久裝飾。
         p ● 講師：許敬忠、潘勁瑞

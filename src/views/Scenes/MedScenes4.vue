@@ -14,7 +14,7 @@
             li.submenu 永續推廣
           span 。
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
         ul
           li
             router-link(:to="{ path: '/scene/med/1' }")
@@ -31,7 +31,7 @@
           li
             router-link(:to="{ path: '/scene/med/5' }")
               img.rounded(src="static/img/button/scene-med-5.png" onmouseover="this.src='static/img/button/scene-med-5focus.png'" onmouseout="this.src='static/img/button/scene-med-5.png'")
-      .col-sm-8.col-md-8.col-lg-8
+      .col-sm-7.col-md-7.col-lg-7
         h1 《圓心花園》活動
         p ● 活動說明：透過曼陀羅的彩繪，紓壓、祈福、療癒心靈。
         p ● 講師：財團法人台北市開放空間文教基金會

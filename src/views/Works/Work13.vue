@@ -14,13 +14,14 @@
           router-link.ainline(:to="{ path: '/work/5-1' }") 
             li.submenu 《土地之聲》
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-left.padding-offset
-        img.rounded.workcontent(src="static/img/button/work-1focus.png")
-        span 作者：胡棟民<br>
-        span 尺寸：長570×寬550×高470cm<br>
-        span 材質：合成樹脂烤漆<br>
-
-      .col-sm-2.col-md-2.col-lg-2.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
+        .row
+          .col-sm-12.col-md-12.col-lg-12
+            img.rounded.workcontent(src="static/img/button/work-1focus.png")
+          .col-sm-12.col-md-12.col-lg-12
+            span 作者：胡棟民<br>
+            span 尺寸：長570×寬550×高470cm<br>
+            span 材質：合成樹脂烤漆<br>
         ul
           li
             router-link(:to="{ path: '/work/1-1' }")
@@ -31,7 +32,7 @@
           li
             router-link(:to="{ path: '/work/1-3' }")
               img.rounded(src="static/img/button/workmenu-3focus.png" onmouseover="this.src='static/img/button/workmenu-3focus.png'" onmouseout="this.src='static/img/button/workmenu-3focus.png'")
-      .col-sm-6.col-md-6.col-lg-6
+      .col-sm-7.col-md-7.col-lg-7
         h1 成果展現
         img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-3-1.jpg" style="width: 50%; height: 25%")
         img.rounded.workcontent.img-thumbnail(src="static/img/work/1/work-3-3.jpg" style="width: 50%; height: 25%")

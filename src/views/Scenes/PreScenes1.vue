@@ -14,7 +14,7 @@
             li.submenu 永續推廣
           span 。
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
         ul
           li
             router-link(:to="{ path: '/scene/pre/1' }")
@@ -22,7 +22,7 @@
           li
             router-link(:to="{ path: '/scene/pre/2' }")
               img.rounded(src="static/img/button/scene-pre-2.png" onmouseover="this.src='static/img/button/scene-pre-2focus.png'" onmouseout="this.src='static/img/button/scene-pre-2.png'")
-      .col-sm-8.col-md-8.col-lg-8
+      .col-sm-7.col-md-7.col-lg-7
         h1 《拼貼創作藝術家》相框拼貼活動
         p ● 宗旨：此活動延伸陽大醫院醫療服務的精神與公共藝術教育推廣目的，規劃以藝術療癒為出發點之拼貼活動，邀請藝術療癒專業講師帶領參與者拼貼創作，體驗藝術家自由創作的樂趣。
         p ● 主題：《幸福宜蘭─咱ㄟ宜蘭大病院》

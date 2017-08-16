@@ -14,7 +14,7 @@
             li.submenu 永續推廣
           span 。
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
         ul
           li
             router-link(:to="{ path: '/scene/med/1' }")
@@ -31,7 +31,7 @@
           li
             router-link(:to="{ path: '/scene/med/5' }")
               img.rounded(src="static/img/button/scene-med-5focus.png" onmouseover="this.src='static/img/button/scene-med-5focus.png'" onmouseout="this.src='static/img/button/scene-med-5focus.png'")
-      .col-sm-8.col-md-8.col-lg-8
+      .col-sm-7.col-md-7.col-lg-7
         h1 《微笑座椅》臨時裝置互動藝術
         p ● 計畫說明：每個人，不管是大人或小孩，或多或少都存在著壓力，每個人煩惱的事情都不同，尤其是上班族，工作的壓力、生活的壓力常常壓得喘不過氣，壓力需要一些方法來釋放，如果懂得與壓力相處，才有正向的力量驅使自己向前進步!微笑是一種紓解壓力的方式，結合搖搖椅希望能帶來舒緩身心目的，讓所有人進出醫院的空間時，能獲得正面的能量!
         p ● 造型創作：李岳庚

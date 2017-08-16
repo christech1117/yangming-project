@@ -14,7 +14,7 @@
             li.submenu 永續推廣
           span 。
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
         ul
           li
             router-link(:to="{ path: '/scene/pre/1' }")
@@ -22,7 +22,7 @@
           li
             router-link(:to="{ path: '/scene/pre/2' }")
               img.rounded(src="static/img/button/scene-pre-2focus.png" onmouseover="this.src='static/img/button/scene-pre-2focus.png'" onmouseout="this.src='static/img/button/scene-pre-2focus.png'")
-      .col-sm-8.col-md-8.col-lg-8
+      .col-sm-7.col-md-7.col-lg-7
         h1 《彩繪蘭陽之美》彩繪木製掛牌活動
         p ● 活動說明：延伸陽大醫院醫療服務的精神與公共藝術教育推廣目的，邀請蘭陽地區的學童、民眾以在地人的角度畫出日常生活所見的宜蘭，小從街角、路口、車站、大到整個蘭陽平原、太平山林皆為宜蘭之美，展現宜蘭在地人文特色。以彩繪鄉村風格的木製迎賓掛牌帶出蘭陽地區家家戶戶獨特的宜蘭人文特色，將來也可掛至於家門巷口歡迎各地來的訪客。
         p ● 主題：《彩繪蘭陽之美》

@@ -14,12 +14,14 @@
           router-link.ainline(:to="{ path: '/work/5-1' }") 
             li.submenu 《土地之聲》
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-left.padding-offset
-        img.rounded.workcontent(src="static/img/button/work-4focus.png")
-        span 作者：許維忠<br>
-        span 尺寸：長460×寬420×高400cm<br>
-        span 材質：鑄銅<br>
-      .col-sm-2.col-md-2.col-lg-2.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
+        .row
+          .col-sm-12.col-md-12.col-lg-12
+            img.rounded.workcontent(src="static/img/button/work-4focus.png")
+          .col-sm-12.col-md-12.col-lg-12
+            span 作者：許維忠<br>
+            span 尺寸：長460×寬420×高400cm<br>
+            span 材質：鑄銅<br>
         ul
           li
             router-link(:to="{ path: '/work/4-1' }")
@@ -30,27 +32,27 @@
           li
             router-link(:to="{ path: '/work/4-3' }")
               img.rounded(src="static/img/button/workmenu-3.png" onmouseover="this.src='static/img/button/workmenu-3focus.png'" onmouseout="this.src='static/img/button/workmenu-3.png'")
-      .col-sm-6.col-md-6.col-lg-6
+      .col-sm-7.col-md-7.col-lg-7.text-center
         h1 創作過程
         .row
-          .col-sm-12.col-md-12.col-lg-12.text-center
+          .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-1.jpg" style="width: 80%")
-            p.text-center 1.螺栓預埋
-          .col-sm-12.col-md-12.col-lg-12.text-center
+            p 1.螺栓預埋
+          .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-2.jpg" style="width: 80%")
-            p.text-center 2.灌注
-          .col-sm-12.col-md-12.col-lg-12.text-center
+            p 2.灌注
+          .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-3.jpg" style="width: 80%")
-            p.text-center 3.作品進場安裝
-          .col-sm-12.col-md-12.col-lg-12.text-center
+            p 3.作品進場安裝
+          .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-4.jpg" style="width: 80%")
-            p.text-center 4.安裝固定後RC加強
-          .col-sm-12.col-md-12.col-lg-12.text-center
+            p 4.安裝固定後RC加強
+          .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-5.jpg" style="width: 80%")
-            p.text-center 5.覆土
-          .col-sm-12.col-md-12.col-lg-12.text-center
+            p 5.覆土
+          .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent.img-thumbnail(src="static/img/work/4/work-2-6.jpg" style="width: 80%")
-            p.text-center 6.覆土植草皮完成
+            p 6.覆土植草皮完成
 </template>
 
 <script>

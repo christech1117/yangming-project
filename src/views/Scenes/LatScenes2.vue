@@ -14,7 +14,7 @@
             li.submenu.active 永續推廣
           span 。
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
         ul
           li
             router-link(:to="{ path: '/scene/lat/1' }")
@@ -25,11 +25,12 @@
           li
             router-link(:to="{ path: '/scene/lat/3' }")
               img.rounded(src="static/img/button/plan-4.png" onmouseover="this.src='static/img/button/plan-4focus.png'" onmouseout="this.src='static/img/button/plan-4.png'")
-      .col-sm-8.col-md-8.col-lg-8
+      .col-sm-7.col-md-7.col-lg-7
         h1 成果專輯
         
-          p ● 線上連結網址：
-            router-link(:to="{ path: '/' }") ＰＤＦ
+            //- p ● 線上連結網址：
+            //- router-link(:to="{ path: '/' }") ＰＤＦ
+            div(data-configid="30626926/52138090" style="width:800px; height:600px;" class="issuuembed")
 </template>
 
 <script>

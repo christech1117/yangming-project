@@ -14,7 +14,7 @@
             li.submenu.active 永續推廣
           span 。
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
         ul
           li
             router-link(:to="{ path: '/scene/lat/1' }")
@@ -25,7 +25,7 @@
           li
             router-link(:to="{ path: '/scene/lat/3' }")
               img.rounded(src="static/img/button/plan-4.png" onmouseover="this.src='static/img/button/plan-4focus.png'" onmouseout="this.src='static/img/button/plan-4.png'")
-      .col-sm-8.col-md-8.col-lg-8
+      .col-sm-7.col-md-7.col-lg-7
         h1 揭幕表演暨導覽活動
         p 國立陽明大學附設醫院成立於2008年，是最年輕的大學附設醫院，為了給予民眾醫學中心級的醫療服務，而新建了蘭陽院區也同時繼續加強醫護人員以“病人為中心”的醫療觀念，提供更貼心更人性化的服務，讓來到院區的民眾及病友都能感受到醫院用心的照顧及治療。
         p 醫學科學不斷創新的今日，人類試圖與疾病對抗、與生命的長度賽跑，一劑又一劑的疫苗被開發，用來消滅各類的病菌、延緩人們的老化。然而藝術的介入，便是試圖在這樣令人不安的醫療空間中，讓所有受傷的心靈可以得到慰藉與撫平。

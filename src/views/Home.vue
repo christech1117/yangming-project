@@ -1,7 +1,7 @@
 <template lang="pug">
   #Home
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-right
+      .col-sm-3.col-md-3.col-lg-3.text-center
         ul.list-group
           li
             router-link(:to="{ path: '/plan/idea' }")
@@ -19,22 +19,22 @@
       .col-sm-6.col-md-6.col-lg-6.text-center
         .row
           .col-sm-6.col-md-6.col-lg-6.work-2.text-right.work-menu
-            router-link(:to="{ path: '/work/1-1' }" style="width: 90%")
+            router-link(:to="{ path: '/work/1-1' }" style="width: 100%")
               img.rounded(src="static/img/button/work-1.png" onmouseover="this.src='static/img/button/work-1focus.png'" onmouseout="this.src='static/img/button/work-1.png'")
           .col-sm-6.col-md-6.col-lg-6.work-3.text-left.work-menu
-            router-link(:to="{ path: '/work/2-1' }" style="width: 90%")
+            router-link(:to="{ path: '/work/2-1' }" style="width: 100%")
               img.rounded(src="static/img/button/work-2.png" onmouseover="this.src='static/img/button/work-2focus.png'" onmouseout="this.src='static/img/button/work-2.png'")
           .col-sm-4.col-md-4.col-lg-4.work-4.text-center
-            router-link(:to="{ path: '/work/3-1' }" style="width: 90%")
+            router-link(:to="{ path: '/work/3-1' }" style="width: 100%")
               img.rounded(src="static/img/button/work-3.png" onmouseover="this.src='static/img/button/work-3focus.png'" onmouseout="this.src='static/img/button/work-3.png'")
           .col-sm-4.col-md-4.col-lg-4.work-6.text-center
-            router-link(:to="{ path: '/work/5-1' }" style="width: 90%")
+            router-link(:to="{ path: '/work/5-1' }" style="width: 100%")
               img.rounded(src="static/img/button/work-5.png" onmouseover="this.src='static/img/button/work-5focus.png'" onmouseout="this.src='static/img/button/work-5.png'")
           .col-sm-4.col-md-4.col-lg-4.work-5.text-center
-            router-link(:to="{ path: '/work/4-1' }" style="width: 90%")
+            router-link(:to="{ path: '/work/4-1' }" style="width: 100%")
               img.rounded(src="static/img/button/work-4.png" onmouseover="this.src='static/img/button/work-4focus.png'" onmouseout="this.src='static/img/button/work-4.png'")
 
-      .col-sm-3.col-md-3.col-lg-3.text-right
+      .col-sm-3.col-md-3.col-lg-3.text-center
         ul.list-group
           li
             router-link(:to="{ path: '/scene/pre/1' }")
@@ -160,12 +160,12 @@ export default {
 @import './static/css/style.sass'
 
 a
-  width: 100%
+  width: 80%
   img
     width: 100%
 
 .work-menu
-  height: 20rem
+  height: 22rem
 
 .work-2
   img

@@ -14,13 +14,14 @@
           router-link.ainline(:to="{ path: '/work/5-1' }") 
             li.submenu 《土地之聲》
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-left.padding-offset
-        img.rounded.workcontent(src="static/img/button/work-3focus.png")
-        span 作者：許敬忠<br>
-        span 尺寸：長135~150cm × 寬60~130cm×高24cm<br>
-        span 材質：不鏽鋼、鍍膜玻璃<br>
-
-      .col-sm-2.col-md-2.col-lg-2.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
+        .row
+          .col-sm-12.col-md-12.col-lg-12
+            img.rounded.workcontent(src="static/img/button/work-3focus.png")
+          .col-sm-12.col-md-12.col-lg-12
+            span 作者：許敬忠<br>
+            span 尺寸：長135~150cm × 寬60~130cm×高24cm<br>
+            span 材質：不鏽鋼、鍍膜玻璃<br>
         ul
           li
             router-link(:to="{ path: '/work/3-1' }")
@@ -31,27 +32,27 @@
           li
             router-link(:to="{ path: '/work/3-3' }")
               img.rounded(src="static/img/button/workmenu-3.png" onmouseover="this.src='static/img/button/workmenu-3focus.png'" onmouseout="this.src='static/img/button/workmenu-3.png'")
-      .col-sm-6.col-md-6.col-lg-6
+      .col-sm-7.col-md-7.col-lg-7.text-center
         h1 創作過程
         .row
-          .col-sm-12.col-md-12.col-lg-12.text-center
+          .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent.img-thumbnail(src="static/img/work/3/work-2-1.jpg" style="width: 80%")
-            p.text-center 1.確認作品安裝位置
-          .col-sm-12.col-md-12.col-lg-12.text-center
+            p 1.確認作品安裝位置
+          .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent.img-thumbnail(src="static/img/work/3/work-2-2.jpg" style="width: 80%")
-            p.text-center 2.作品定位後安裝
-          .col-sm-12.col-md-12.col-lg-12.text-center
+            p 2.作品定位後安裝
+          .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent.img-thumbnail(src="static/img/work/3/work-2-3.jpg" style="width: 80%")
-            p.text-center 3.安裝於牆面
-          .col-sm-12.col-md-12.col-lg-12.text-center
+            p 3.安裝於牆面
+          .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent.img-thumbnail(src="static/img/work/3/work-2-4.jpg" style="width: 80%")
-            p.text-center 4.投射燈安裝測試
-          .col-sm-12.col-md-12.col-lg-12.text-center
+            p 4.投射燈安裝測試
+          .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent.img-thumbnail(src="static/img/work/3/work-2-5.jpg" style="width: 80%")
-            p.text-center 5.覆鍍膜玻璃安裝固定
-          .col-sm-12.col-md-12.col-lg-12.text-center
+            p 5.覆鍍膜玻璃安裝固定
+          .col-sm-12.col-md-12.col-lg-12
             img.rounded.workcontent.img-thumbnail(src="static/img/work/3/work-2-6.jpg" style="width: 80%")
-            p.text-center 6.調整鍍膜玻璃角度
+            p 6.調整鍍膜玻璃角度
 </template>
 
 <script>

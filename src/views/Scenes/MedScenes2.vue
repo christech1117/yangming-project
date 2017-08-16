@@ -14,7 +14,7 @@
             li.submenu 永續推廣
           span 。
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
         ul
           li
             router-link(:to="{ path: '/scene/med/1' }")
@@ -31,7 +31,7 @@
           li
             router-link(:to="{ path: '/scene/med/5' }")
               img.rounded(src="static/img/button/scene-med-5.png" onmouseover="this.src='static/img/button/scene-med-5focus.png'" onmouseout="this.src='static/img/button/scene-med-5.png'")
-      .col-sm-8.col-md-8.col-lg-8
+      .col-sm-7.col-md-7.col-lg-7
         h1 《飛越生命的波浪》課程
         p ● 活動說明: 手的溫度與土的溫度接觸是最原始與自然親近的療癒，認識宜蘭的環境與生態，民眾與藝術家一同體驗公共藝術，讓參與者了解圍繞宜蘭伴隨著我們一同生活的生命價值。
         p ● 活動方式以群鳥彩鷸飛翔的公共藝術，透過藝術家指噵彩繪陶鳥，完成後與藝術家交換由藝術家所製作簽名的青花彩鷸，最後藝術家將民眾參與完成之陶鳥燒成後設置，象徵一起齊心飛越人生的波浪，完成「飛越生命的波浪」群眾參與公共藝術集體創作。

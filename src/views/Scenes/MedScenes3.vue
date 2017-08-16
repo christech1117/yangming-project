@@ -14,7 +14,7 @@
             li.submenu 永續推廣
           span 。
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
         ul
           li
             router-link(:to="{ path: '/scene/med/1' }")
@@ -31,7 +31,7 @@
           li
             router-link(:to="{ path: '/scene/med/5' }")
               img.rounded(src="static/img/button/scene-med-5.png" onmouseover="this.src='static/img/button/scene-med-5focus.png'" onmouseout="this.src='static/img/button/scene-med-5.png'")
-      .col-sm-8.col-md-8.col-lg-8
+      .col-sm-7.col-md-7.col-lg-7
         h1 《植物創作工作坊》活動
         p ● 活動說明：邀請民眾親自感受宜蘭的自然之美，以大自然的素材進行藝術創作，實作的手感與創作的喜悅，讓參與者感受從不同角度接觸植物的趣味。邀請日籍藝術家與民眾直接進行對話交流，讓更多人可以了解大自然如何讓人們的心靈富足。
         p ● 講師：笠原由起子 小姐
