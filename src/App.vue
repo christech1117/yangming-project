@@ -9,7 +9,7 @@
         .col-sm-3.col-md-3.col-lg-3.text-center
           router-link(:to="{ path: '/plan/idea' }")
             img.menu.plan(src="static/img/button/plan-0.png")
-        .col-sm-6.col-md-6.col-lg-6.text-center
+        .col-sm-3.col-md-6.col-lg-6.text-center
           router-link(:to="{ path: '/work/1-1' }")
             img.menu(src="static/img/button/work-0.png")
         .col-sm-3.col-md-3.col-lg-3

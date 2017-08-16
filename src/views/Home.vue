@@ -1,7 +1,7 @@
 <template lang="pug">
   #Home
     .row
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-12.col-md-12.col-lg-3.text-center
         ul.list-group
           li
             router-link(:to="{ path: '/plan/idea' }")
@@ -16,7 +16,7 @@
             router-link(:to="{ path: '/plan/4' }")
               img.rounded(src="static/img/button/plan-4.png" onmouseover="this.src='static/img/button/plan-4focus.png'" onmouseout="this.src='static/img/button/plan-4.png'")
 
-      .col-sm-6.col-md-6.col-lg-6.text-center
+      .col-sm-12.col-md-12.col-lg-6.text-center
         .row
           .col-sm-6.col-md-6.col-lg-6.work-2.text-right.work-menu
             router-link(:to="{ path: '/work/1-1' }" style="width: 100%")
@@ -34,7 +34,7 @@
             router-link(:to="{ path: '/work/4-1' }" style="width: 100%")
               img.rounded(src="static/img/button/work-4.png" onmouseover="this.src='static/img/button/work-4focus.png'" onmouseout="this.src='static/img/button/work-4.png'")
 
-      .col-sm-3.col-md-3.col-lg-3.text-center
+      .col-sm-12.col-md-12.col-lg-3.text-center
         ul.list-group
           li
             router-link(:to="{ path: '/scene/pre/1' }")
