@@ -74,15 +74,14 @@ export default {
     &:hover
       animation: fadeInUp 2s ease both
   img
-    width: 50%
     margin-top: 2.5rem
+    margin-bottom: 1.5rem
     
   .menu
-    width: 300px
-    margin-bottom: 1.5rem
+    width: 23rem
 
   .plan
-    width: 200px
+    width: 14rem
 
 .submenu
   display: inline
