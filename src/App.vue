@@ -15,8 +15,8 @@
         .col-sm-3.col-md-3.col-lg-3
           router-link(:to="{ path: '/scene/pre/1' }")
             img.menu(src="static/img/button/scene-0.png")
-    
       router-view
+      .footer
 </template>
 
 <script>
@@ -52,7 +52,7 @@ export default {
 
 .brand
   height: 25rem
-  width: 28%
+  width: 32%
   right: 20%
   position: absolute
   // background: url(/static/img/brand.png)
@@ -61,7 +61,7 @@ export default {
   background-size: contain
   +trans
   &:hover
-    width: 30%
+    width: 34%
 
 .box
   position: relative
@@ -86,4 +86,7 @@ export default {
 
 .submenu
   display: inline
+
+.footer
+  padding: 3rem
 </style>

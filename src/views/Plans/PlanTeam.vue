@@ -11,7 +11,7 @@
             li.submenu.active 行政團隊
           span 。
     .row
-      .col-sm-12.col-md-12.col-lg-4.text-center
+      .col-sm-4.col-md-4.col-lg-4.text-center
         ul
           li
             router-link(:to="{ path: '/plan/3' }")
@@ -19,7 +19,7 @@
           li
             router-link(:to="{ path: '/plan/4' }")
               img.rounded(src="static/img/button/plan-4.png" onmouseover="this.src='static/img/button/plan-4focus.png'" onmouseout="this.src='static/img/button/plan-4.png'")
-      .col-sm-10.col-md-10.col-lg-8
+      .col-sm-8.col-md-8.col-lg-8
         h1 行政團隊
         .row
           .col-sm-6.col-md-6.col-lg-6
