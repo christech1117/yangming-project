@@ -27,10 +27,7 @@
               img.rounded(src="static/img/button/plan-4.png" onmouseover="this.src='static/img/button/plan-4focus.png'" onmouseout="this.src='static/img/button/plan-4.png'")
       .col-sm-7.col-md-7.col-lg-7
         h1 成果專輯
-        
-            //- p ● 線上連結網址：
-            //- router-link(:to="{ path: '/' }") ＰＤＦ
-            iframe(style="width:800px; height:548px;" src="//e.issuu.com/embed.html#30626926/52138090" frameborder="0" allowfullscreen)
+        iframe(style="width:800px; height:548px;" src="//e.issuu.com/embed.html#30626926/52138090" frameborder="0" allowfullscreen)
 </template>
 
 <script>

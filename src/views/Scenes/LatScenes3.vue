@@ -26,7 +26,7 @@
             router-link(:to="{ path: '/scene/lat/3' }")
               img.rounded(src="static/img/button/plan-4focus.png" onmouseover="this.src='static/img/button/plan-4focus.png'" onmouseout="this.src='static/img/button/plan-4focus.png'")
       .col-sm-7.col-md-7.col-lg-7
-        h1 成果專輯
+        h1 公共藝術導覽影片
         p ● 影片內容：透過藝術家訪談認識本案公共藝術作品創作理念、設置過程。
         p ● 採訪藝術家：《復原‧新生》-許維忠、《雲想》-胡棟民、《光之舞》-許敬忠、《大地之書》-笠原由起子、《土地之聲》-金澤健一
         p ● 執行單位：羅傑藝術文化有限公司

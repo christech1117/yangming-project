@@ -32,21 +32,21 @@
 
         .row
           .col-sm-12.col-md-12.col-lg-12.text-center
-            img.img-thumbnail(src="static/img/scene/pre-2-1.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-2.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-3.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-4.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-5.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-6.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-7.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-8.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-9.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-10.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-11.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-12.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-13.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-14.jpg" style="width: 30%; height: 15%")
-            img.img-thumbnail(src="static/img/scene/pre-2-15.jpg" style="width: 30%; height: 15%")
+            img.img-thumbnail(src="static/img/scene/pre-2-1.jpg" style="width: 30%")
+            img.img-thumbnail(src="static/img/scene/pre-2-2.jpg" style="width: 30%")
+            img.img-thumbnail(src="static/img/scene/pre-2-3.jpg" style="width: 30%")
+            img.img-thumbnail(src="static/img/scene/pre-2-4.jpg" style="width: 30%")
+            img.img-thumbnail(src="static/img/scene/pre-2-5.jpg" style="width: 30%")
+            img.img-thumbnail(src="static/img/scene/pre-2-6.jpg" style="width: 30%")
+            img.img-thumbnail(src="static/img/scene/pre-2-7.jpg" style="width: 30%")
+            img.img-thumbnail(src="static/img/scene/pre-2-8.jpg" style="width: 30%")
+            img.img-thumbnail(src="static/img/scene/pre-2-9.jpg" style="width: 30%")
+            img.img-thumbnail(src="static/img/scene/pre-2-13.jpg" style="width: 30%")
+            img.img-thumbnail(src="static/img/scene/pre-2-11.jpg" style="width: 30%")
+            img.img-thumbnail(src="static/img/scene/pre-2-12.jpg" style="width: 30%")
+            img.img-thumbnail(src="static/img/scene/pre-2-10.jpg" style="width: 30%; height: 20%")
+            img.img-thumbnail(src="static/img/scene/pre-2-15.jpg" style="width: 30%; height: 20%")
+            img.img-thumbnail(src="static/img/scene/pre-2-14.jpg" style="width: 30%; height: 20%")
 </template>
 
 <script>

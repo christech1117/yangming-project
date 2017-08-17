@@ -20,7 +20,7 @@
             img.rounded.workcontent(src="static/img/button/work-2focus.png")
           .col-sm-12.col-md-12.col-lg-12
             span 作者：笠原由起子<br>
-            span 尺寸：(鑄銅)長23×寬28×高4cm〜長47×寬28×高6cm、(石)寬×深25×30cm~50×30cm；高40〜130cm<br>
+            span 尺寸：(鑄銅)長23×寬28×高4cm〜長47×寬28×高6cm<br>(石)寬×深25×30cm~50×30cm；高40〜130cm<br>
             span 材質：鑄銅、石<br>
         ul
           li
